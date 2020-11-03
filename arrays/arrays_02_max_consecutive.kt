@@ -2,7 +2,7 @@
 * Max consecutive ones problem from leetcode
 * https://leetcode.com/explore/featured/card/fun-with-arrays/521/introduction/3238/
 */
-fun main(args: Array<String>) {
+fun main() {
     var inputArr = intArrayOf(1, 0, 1, 1, 0, 1)
     val result = findMaxConsecutiveOnes(inputArr)
 

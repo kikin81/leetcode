@@ -6,7 +6,7 @@ data class DVD(
     val director: String
 )
 
-fun main(args: Array<String>) {
+fun main() {
     val avengersDvd = DVD("The Avengers", 2012, "Joss Whedon")
     val dvdList = arrayOf<DVD>(avengersDvd)
     for (dvd in dvdList) {
